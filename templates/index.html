@@ -1,0 +1,15 @@
+{% include "header.html" %}
+
+<div class="container" id="main">
+    <div class="d-flex bd-highlight">
+        <div class="p-2 flex-grow-1 bd-highlight"><h1 class="bd-title">Example app</h1></div>
+        <div class="p-2 bd-highlight"><a class="btn btn-outline-primary" href="{{ url_for('login') }}"
+                                         title="Login via OAuth2" rel="noopener">Login
+            via OAuth2</a></div>
+        <div class="p-2 bd-highlight"><a class="btn btn-outline-danger" href="{{ url_for('logout') }}"
+                                         title="Login via OAuth2"
+                                         rel="noopener">Logout</a></div>
+    </div>
+ </div>
+
+{% include "footer.html" %}
